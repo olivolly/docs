@@ -66,6 +66,149 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "DASH",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "dash/getting-started/what-is-dash",
+              "dash/getting-started/overview-of-dash-modules",
+              "dash/getting-started/navigating-the-interface"
+            ]
+          },
+          {
+            "group": "Dashboard",
+            "pages": [
+              "dash/dashboard"
+            ]
+          },
+          {
+            "group": "Accounting",
+            "pages": [
+              "dash/accounting/accounts-payable",
+              "dash/accounting/accounts-receivable",
+              "dash/accounting/fixed-assets",
+              "dash/accounting/general-ledger",
+              "dash/accounting/maintenance"
+            ]
+          },
+          {
+            "group": "Administration",
+            "pages": [
+              "dash/administration/manage-companies",
+              "dash/administration/manage-entities",
+              "dash/administration/manage-navigation"
+            ]
+          },
+          {
+            "group": "Customer Information",
+            "pages": [
+              "dash/customer-information/maintenance",
+              "dash/customer-information/manage-customers"
+            ]
+          },
+          {
+            "group": "eCommerce",
+            "pages": [
+              "dash/ecommerce/reports"
+            ]
+          },
+          {
+            "group": "Inventory",
+            "pages": [
+              "dash/inventory/labels",
+              "dash/inventory/material-handler",
+              "dash/inventory/reports"
+            ]
+          },
+          {
+            "group": "Miscellaneous",
+            "pages": [
+              "dash/miscellaneous/dymo-tags",
+              "dash/miscellaneous/it-functions",
+              "dash/miscellaneous/manage-freight-carriers",
+              "dash/miscellaneous/mass-remove-pallets"
+            ]
+          },
+          {
+            "group": "Order Processing",
+            "pages": [
+              "dash/order-processing/loss-of-sales",
+              "dash/order-processing/manage-orders",
+              "dash/order-processing/order-picking",
+              "dash/order-processing/picking-status",
+              "dash/order-processing/qc-orders",
+              "dash/order-processing/reports"
+            ]
+          },
+          {
+            "group": "Part Information",
+            "pages": [
+              "dash/part-information/maintenance",
+              "dash/part-information/manage-formulas",
+              "dash/part-information/manage-holds",
+              "dash/part-information/manage-msds-sheets",
+              "dash/part-information/manage-parts",
+              "dash/part-information/manage-product-classes",
+              "dash/part-information/reports"
+            ]
+          },
+          {
+            "group": "Physical Inventory",
+            "pages": [
+              "dash/physical-inventory/inventory-tag-control",
+              "dash/physical-inventory/physical-inventory-reports",
+              "dash/physical-inventory/record-inventory"
+            ]
+          },
+          {
+            "group": "Production Tracking",
+            "pages": [
+              "dash/production-tracking/batch-tickets",
+              "dash/production-tracking/bottling-jobs",
+              "dash/production-tracking/dashboard",
+              "dash/production-tracking/production-reports"
+            ]
+          },
+          {
+            "group": "Purchase Orders",
+            "pages": [
+              "dash/purchase-orders/manage-purchase-orders",
+              "dash/purchase-orders/manage-vendors",
+              "dash/purchase-orders/receiving",
+              "dash/purchase-orders/reports"
+            ]
+          },
+          {
+            "group": "Scheduling",
+            "pages": [
+              "dash/scheduling/manage-schedules",
+              "dash/scheduling/scheduling-reports"
+            ]
+          },
+          {
+            "group": "Shipping",
+            "pages": [
+              "dash/shipping/advanced-shipping-notices",
+              "dash/shipping/bill-of-lading",
+              "dash/shipping/kits",
+              "dash/shipping/print-shipping-documents",
+              "dash/shipping/reports",
+              "dash/shipping/selector",
+              "dash/shipping/spd"
+            ]
+          },
+          {
+            "group": "Work Orders",
+            "pages": [
+              "dash/work-orders/manage-work-orders",
+              "dash/work-orders/work-order-production",
+              "dash/work-orders/work-order-reports"
+            ]
+          }
+        ]
       }
     ],
     "global": {
