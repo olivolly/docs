@@ -73,139 +73,139 @@
           {
             "group": "Getting Started",
             "pages": [
-              "dash/getting-started/what-is-dash",
-              "dash/getting-started/overview-of-dash-modules",
-              "dash/getting-started/navigating-the-interface"
+              "getting-started/what-is-dash",
+              "getting-started/overview-of-dash-modules",
+              "getting-started/navigating-the-interface"
             ]
           },
           {
             "group": "Dashboard",
             "pages": [
-              "dash/dashboard"
+              "dashboard"
             ]
           },
           {
             "group": "Accounting",
             "pages": [
-              "dash/accounting/accounts-payable",
-              "dash/accounting/accounts-receivable",
-              "dash/accounting/fixed-assets",
-              "dash/accounting/general-ledger",
-              "dash/accounting/maintenance"
+              "accounting/accounts-payable",
+              "accounting/accounts-receivable",
+              "accounting/fixed-assets",
+              "accounting/general-ledger",
+              "accounting/maintenance"
             ]
           },
           {
             "group": "Administration",
             "pages": [
-              "dash/administration/manage-companies",
-              "dash/administration/manage-entities",
-              "dash/administration/manage-navigation"
+              "administration/manage-companies",
+              "administration/manage-entities",
+              "administration/manage-navigation"
             ]
           },
           {
             "group": "Customer Information",
             "pages": [
-              "dash/customer-information/maintenance",
-              "dash/customer-information/manage-customers"
+              "customer-information/maintenance",
+              "customer-information/manage-customers"
             ]
           },
           {
             "group": "eCommerce",
             "pages": [
-              "dash/ecommerce/reports"
+              "ecommerce/reports"
             ]
           },
           {
             "group": "Inventory",
             "pages": [
-              "dash/inventory/labels",
-              "dash/inventory/material-handler",
-              "dash/inventory/reports"
+              "inventory/labels",
+              "inventory/material-handler",
+              "inventory/reports"
             ]
           },
           {
             "group": "Miscellaneous",
             "pages": [
-              "dash/miscellaneous/dymo-tags",
-              "dash/miscellaneous/it-functions",
-              "dash/miscellaneous/manage-freight-carriers",
-              "dash/miscellaneous/mass-remove-pallets"
+              "miscellaneous/dymo-tags",
+              "miscellaneous/it-functions",
+              "miscellaneous/manage-freight-carriers",
+              "miscellaneous/mass-remove-pallets"
             ]
           },
           {
             "group": "Order Processing",
             "pages": [
-              "dash/order-processing/loss-of-sales",
-              "dash/order-processing/manage-orders",
-              "dash/order-processing/order-picking",
-              "dash/order-processing/picking-status",
-              "dash/order-processing/qc-orders",
-              "dash/order-processing/reports"
+              "order-processing/loss-of-sales",
+              "order-processing/manage-orders",
+              "order-processing/order-picking",
+              "order-processing/picking-status",
+              "order-processing/qc-orders",
+              "order-processing/reports"
             ]
           },
           {
             "group": "Part Information",
             "pages": [
-              "dash/part-information/maintenance",
-              "dash/part-information/manage-formulas",
-              "dash/part-information/manage-holds",
-              "dash/part-information/manage-msds-sheets",
-              "dash/part-information/manage-parts",
-              "dash/part-information/manage-product-classes",
-              "dash/part-information/reports"
+              "part-information/maintenance",
+              "part-information/manage-formulas",
+              "part-information/manage-holds",
+              "part-information/manage-msds-sheets",
+              "part-information/manage-parts",
+              "part-information/manage-product-classes",
+              "part-information/reports"
             ]
           },
           {
             "group": "Physical Inventory",
             "pages": [
-              "dash/physical-inventory/inventory-tag-control",
-              "dash/physical-inventory/physical-inventory-reports",
-              "dash/physical-inventory/record-inventory"
+              "physical-inventory/inventory-tag-control",
+              "physical-inventory/physical-inventory-reports",
+              "physical-inventory/record-inventory"
             ]
           },
           {
             "group": "Production Tracking",
             "pages": [
-              "dash/production-tracking/batch-tickets",
-              "dash/production-tracking/bottling-jobs",
-              "dash/production-tracking/dashboard",
-              "dash/production-tracking/production-reports"
+              "production-tracking/batch-tickets",
+              "production-tracking/bottling-jobs",
+              "production-tracking/dashboard",
+              "production-tracking/production-reports"
             ]
           },
           {
             "group": "Purchase Orders",
             "pages": [
-              "dash/purchase-orders/manage-purchase-orders",
-              "dash/purchase-orders/manage-vendors",
-              "dash/purchase-orders/receiving",
-              "dash/purchase-orders/reports"
+              "purchase-orders/manage-purchase-orders",
+              "purchase-orders/manage-vendors",
+              "purchase-orders/receiving",
+              "purchase-orders/reports"
             ]
           },
           {
             "group": "Scheduling",
             "pages": [
-              "dash/scheduling/manage-schedules",
-              "dash/scheduling/scheduling-reports"
+              "scheduling/manage-schedules",
+              "scheduling/scheduling-reports"
             ]
           },
           {
             "group": "Shipping",
             "pages": [
-              "dash/shipping/advanced-shipping-notices",
-              "dash/shipping/bill-of-lading",
-              "dash/shipping/kits",
-              "dash/shipping/print-shipping-documents",
-              "dash/shipping/reports",
-              "dash/shipping/selector",
-              "dash/shipping/spd"
+              "shipping/advanced-shipping-notices",
+              "shipping/bill-of-lading",
+              "shipping/kits",
+              "shipping/print-shipping-documents",
+              "shipping/reports",
+              "shipping/selector",
+              "shipping/spd"
             ]
           },
           {
             "group": "Work Orders",
             "pages": [
-              "dash/work-orders/manage-work-orders",
-              "dash/work-orders/work-order-production",
-              "dash/work-orders/work-order-reports"
+              "work-orders/manage-work-orders",
+              "work-orders/work-order-production",
+              "work-orders/work-order-reports"
             ]
           }
         ]
