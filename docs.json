@@ -16,7 +16,177 @@
           "getting-started/what-is-dash",
           "getting-started/overview-of-dash-modules",
           "getting-started/navigating-the-interface"
+        ]{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Mint Starter Kit",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Docs",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              { "path": "getting-started/what-is-dash", "title": "What is DASH?" },
+              { "path": "getting-started/overview-of-dash-modules", "title": "Overview of DASH Modules" },
+              { "path": "getting-started/navigating-the-interface", "title": "Navigating the Interface" }
+            ]
+          },
+          {
+            "group": "Dashboard",
+            "pages": [
+              { "path": "dashboard", "title": "Dashboard Overview" }
+            ]
+          },
+          {
+            "group": "Accounting",
+            "pages": [
+              { "path": "accounting/accounts-payable", "title": "Accounts Payable" },
+              { "path": "accounting/accounts-receivable", "title": "Accounts Receivable" },
+              { "path": "accounting/fixed-assets", "title": "Fixed Assets" },
+              { "path": "accounting/general-ledger", "title": "General Ledger" },
+              { "path": "accounting/maintenance", "title": "Maintenance" }
+            ]
+          },
+          {
+            "group": "Administration",
+            "pages": [
+              { "path": "administration/manage-companies", "title": "Manage Companies" },
+              { "path": "administration/manage-entities", "title": "Manage Entities" },
+              { "path": "administration/manage-navigation", "title": "Manage Navigation" }
+            ]
+          },
+          {
+            "group": "Customer Information",
+            "pages": [
+              { "path": "customer-information/maintenance", "title": "Maintenance" },
+              { "path": "customer-information/manage-customers", "title": "Manage Customers" }
+            ]
+          },
+          {
+            "group": "eCommerce",
+            "pages": [
+              { "path": "ecommerce/reports", "title": "Reports" }
+            ]
+          },
+          {
+            "group": "Inventory",
+            "pages": [
+              { "path": "inventory/labels", "title": "Labels" },
+              { "path": "inventory/material-handler", "title": "Material Handler" },
+              { "path": "inventory/reports", "title": "Reports" }
+            ]
+          },
+          {
+            "group": "Miscellaneous",
+            "pages": [
+              { "path": "miscellaneous/dymo-tags", "title": "Dymo Tags" },
+              { "path": "miscellaneous/it-functions", "title": "IT Functions" },
+              { "path": "miscellaneous/manage-freight-carriers", "title": "Manage Freight Carriers" },
+              { "path": "miscellaneous/mass-remove-pallets", "title": "Mass Remove Pallets" }
+            ]
+          },
+          {
+            "group": "Order Processing",
+            "pages": [
+              { "path": "order-processing/loss-of-sales", "title": "Loss of Sales" },
+              { "path": "order-processing/manage-orders", "title": "Manage Orders" },
+              { "path": "order-processing/order-picking", "title": "Order Picking" },
+              { "path": "order-processing/picking-status", "title": "Picking Status" },
+              { "path": "order-processing/qc-orders", "title": "QC Orders" },
+              { "path": "order-processing/reports", "title": "Reports" }
+            ]
+          },
+          {
+            "group": "Part Information",
+            "pages": [
+              { "path": "part-information/maintenance", "title": "Maintenance" },
+              { "path": "part-information/manage-formulas", "title": "Manage Formulas" },
+              { "path": "part-information/manage-holds", "title": "Manage Holds" },
+              { "path": "part-information/manage-msds-sheets", "title": "Manage MSDS Sheets" },
+              { "path": "part-information/manage-parts", "title": "Manage Parts" },
+              { "path": "part-information/manage-product-classes", "title": "Manage Product Classes" },
+              { "path": "part-information/reports", "title": "Reports" }
+            ]
+          },
+          {
+            "group": "Physical Inventory",
+            "pages": [
+              { "path": "physical-inventory/inventory-tag-control", "title": "Inventory Tag Control" },
+              { "path": "physical-inventory/physical-inventory-reports", "title": "Physical Inventory Reports" },
+              { "path": "physical-inventory/record-inventory", "title": "Record Inventory" }
+            ]
+          },
+          {
+            "group": "Production Tracking",
+            "pages": [
+              { "path": "production-tracking/batch-tickets", "title": "Batch Tickets" },
+              { "path": "production-tracking/bottling-jobs", "title": "Bottling Jobs" },
+              { "path": "production-tracking/dashboard", "title": "Dashboard" },
+              { "path": "production-tracking/production-reports", "title": "Production Reports" }
+            ]
+          },
+          {
+            "group": "Purchase Orders",
+            "pages": [
+              { "path": "purchase-orders/manage-purchase-orders", "title": "Manage Purchase Orders" },
+              { "path": "purchase-orders/manage-vendors", "title": "Manage Vendors" },
+              { "path": "purchase-orders/receiving", "title": "Receiving" },
+              { "path": "purchase-orders/reports", "title": "Reports" }
+            ]
+          },
+          {
+            "group": "Scheduling",
+            "pages": [
+              { "path": "scheduling/manage-schedules", "title": "Manage Schedules" },
+              { "path": "scheduling/scheduling-reports", "title": "Scheduling Reports" }
+            ]
+          },
+          {
+            "group": "Shipping",
+            "pages": [
+              { "path": "shipping/advanced-shipping-notices", "title": "Advanced Shipping Notices" },
+              { "path": "shipping/bill-of-lading", "title": "Bill of Lading" },
+              { "path": "shipping/kits", "title": "Kits" },
+              { "path": "shipping/print-shipping-documents", "title": "Print Shipping Documents" },
+              { "path": "shipping/reports", "title": "Reports" },
+              { "path": "shipping/selector", "title": "Selector" },
+              { "path": "shipping/spd", "title": "SPD" }
+            ]
+          },
+          {
+            "group": "Work Orders",
+            "pages": [
+              { "path": "work-orders/manage-work-orders", "title": "Manage Work Orders" },
+              { "path": "work-orders/work-order-production", "title": "Work Order Production" },
+              { "path": "work-orders/work-order-reports", "title": "Work Order Reports" }
+            ]
+          }
         ]
+      }
+    ],
+    "global": {
+      "anchors": []
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": []
+  },
+  "footer": {
+    "socials": {}
+  }
+}
       },
       {
         "group": "Dashboard",
