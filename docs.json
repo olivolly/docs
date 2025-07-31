@@ -9,226 +9,144 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
+        "group": "Getting Started",
+        "pages": [
+          "getting-started/what-is-dash",
+          "getting-started/overview-of-dash-modules",
+          "getting-started/navigating-the-interface"
         ]
       },
       {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
+        "group": "Dashboard",
+        "pages": ["dashboard"]
+      },
+      {
+        "group": "Accounting",
+        "pages": [
+          "accounting/accounts-payable",
+          "accounting/accounts-receivable",
+          "accounting/fixed-assets",
+          "accounting/general-ledger",
+          "accounting/maintenance"
         ]
       },
       {
-        "tab": "DASH",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": [
-              "getting-started/what-is-dash",
-              "getting-started/overview-of-dash-modules",
-              "getting-started/navigating-the-interface"
-            ]
-          },
-          {
-            "group": "Dashboard",
-            "pages": [
-              "dashboard"
-            ]
-          },
-          {
-            "group": "Accounting",
-            "pages": [
-              "accounting/accounts-payable",
-              "accounting/accounts-receivable",
-              "accounting/fixed-assets",
-              "accounting/general-ledger",
-              "accounting/maintenance"
-            ]
-          },
-          {
-            "group": "Administration",
-            "pages": [
-              "administration/manage-companies",
-              "administration/manage-entities",
-              "administration/manage-navigation"
-            ]
-          },
-          {
-            "group": "Customer Information",
-            "pages": [
-              "customer-information/maintenance",
-              "customer-information/manage-customers"
-            ]
-          },
-          {
-            "group": "eCommerce",
-            "pages": [
-              "ecommerce/reports"
-            ]
-          },
-          {
-            "group": "Inventory",
-            "pages": [
-              "inventory/labels",
-              "inventory/material-handler",
-              "inventory/reports"
-            ]
-          },
-          {
-            "group": "Miscellaneous",
-            "pages": [
-              "miscellaneous/dymo-tags",
-              "miscellaneous/it-functions",
-              "miscellaneous/manage-freight-carriers",
-              "miscellaneous/mass-remove-pallets"
-            ]
-          },
-          {
-            "group": "Order Processing",
-            "pages": [
-              "order-processing/loss-of-sales",
-              "order-processing/manage-orders",
-              "order-processing/order-picking",
-              "order-processing/picking-status",
-              "order-processing/qc-orders",
-              "order-processing/reports"
-            ]
-          },
-          {
-            "group": "Part Information",
-            "pages": [
-              "part-information/maintenance",
-              "part-information/manage-formulas",
-              "part-information/manage-holds",
-              "part-information/manage-msds-sheets",
-              "part-information/manage-parts",
-              "part-information/manage-product-classes",
-              "part-information/reports"
-            ]
-          },
-          {
-            "group": "Physical Inventory",
-            "pages": [
-              "physical-inventory/inventory-tag-control",
-              "physical-inventory/physical-inventory-reports",
-              "physical-inventory/record-inventory"
-            ]
-          },
-          {
-            "group": "Production Tracking",
-            "pages": [
-              "production-tracking/batch-tickets",
-              "production-tracking/bottling-jobs",
-              "production-tracking/dashboard",
-              "production-tracking/production-reports"
-            ]
-          },
-          {
-            "group": "Purchase Orders",
-            "pages": [
-              "purchase-orders/manage-purchase-orders",
-              "purchase-orders/manage-vendors",
-              "purchase-orders/receiving",
-              "purchase-orders/reports"
-            ]
-          },
-          {
-            "group": "Scheduling",
-            "pages": [
-              "scheduling/manage-schedules",
-              "scheduling/scheduling-reports"
-            ]
-          },
-          {
-            "group": "Shipping",
-            "pages": [
-              "shipping/advanced-shipping-notices",
-              "shipping/bill-of-lading",
-              "shipping/kits",
-              "shipping/print-shipping-documents",
-              "shipping/reports",
-              "shipping/selector",
-              "shipping/spd"
-            ]
-          },
-          {
-            "group": "Work Orders",
-            "pages": [
-              "work-orders/manage-work-orders",
-              "work-orders/work-order-production",
-              "work-orders/work-order-reports"
-            ]
-          }
+        "group": "Administration",
+        "pages": [
+          "administration/manage-companies",
+          "administration/manage-entities",
+          "administration/manage-navigation"
+        ]
+      },
+      {
+        "group": "Customer Information",
+        "pages": [
+          "customer-information/maintenance",
+          "customer-information/manage-customers"
+        ]
+      },
+      {
+        "group": "eCommerce",
+        "pages": ["ecommerce/reports"]
+      },
+      {
+        "group": "Inventory",
+        "pages": [
+          "inventory/labels",
+          "inventory/material-handler",
+          "inventory/reports"
+        ]
+      },
+      {
+        "group": "Miscellaneous",
+        "pages": [
+          "miscellaneous/dymo-tags",
+          "miscellaneous/it-functions",
+          "miscellaneous/manage-freight-carriers",
+          "miscellaneous/mass-remove-pallets"
+        ]
+      },
+      {
+        "group": "Order Processing",
+        "pages": [
+          "order-processing/loss-of-sales",
+          "order-processing/manage-orders",
+          "order-processing/order-picking",
+          "order-processing/picking-status",
+          "order-processing/qc-orders",
+          "order-processing/reports"
+        ]
+      },
+      {
+        "group": "Part Information",
+        "pages": [
+          "part-information/maintenance",
+          "part-information/manage-formulas",
+          "part-information/manage-holds",
+          "part-information/manage-msds-sheets",
+          "part-information/manage-parts",
+          "part-information/manage-product-classes",
+          "part-information/reports"
+        ]
+      },
+      {
+        "group": "Physical Inventory",
+        "pages": [
+          "physical-inventory/inventory-tag-control",
+          "physical-inventory/physical-inventory-reports",
+          "physical-inventory/record-inventory"
+        ]
+      },
+      {
+        "group": "Production Tracking",
+        "pages": [
+          "production-tracking/batch-tickets",
+          "production-tracking/bottling-jobs",
+          "production-tracking/dashboard",
+          "production-tracking/production-reports"
+        ]
+      },
+      {
+        "group": "Purchase Orders",
+        "pages": [
+          "purchase-orders/manage-purchase-orders",
+          "purchase-orders/manage-vendors",
+          "purchase-orders/receiving",
+          "purchase-orders/reports"
+        ]
+      },
+      {
+        "group": "Scheduling",
+        "pages": [
+          "scheduling/manage-schedules",
+          "scheduling/scheduling-reports"
+        ]
+      },
+      {
+        "group": "Shipping",
+        "pages": [
+          "shipping/advanced-shipping-notices",
+          "shipping/bill-of-lading",
+          "shipping/kits",
+          "shipping/print-shipping-documents",
+          "shipping/reports",
+          "shipping/selector",
+          "shipping/spd"
+        ]
+      },
+      {
+        "group": "Work Orders",
+        "pages": [
+          "work-orders/manage-work-orders",
+          "work-orders/work-order-production",
+          "work-orders/work-order-reports"
         ]
       }
     ],
     "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
+      "anchors": []
     }
   },
   "logo": {
@@ -236,23 +154,9 @@
     "dark": "/logo/dark.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+    "links": []
   },
   "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+    "socials": {}
   }
 }
