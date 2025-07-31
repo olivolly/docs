@@ -13,9 +13,9 @@
       {
         "group": "Getting Started",
         "pages": [
-          "getting-started/dash-overview",
+          "getting-started/what-is-dash",
           "getting-started/overview-of-dash-modules",
-          "getting-started/navigating-the-dash-interface"
+          "getting-started/navigating-the-interface"
         ]
       },
       {
@@ -25,6 +25,7 @@
       {
         "group": "Accounting",
         "pages": [
+          "accounting/accounting-module-overview",
           "accounting/accounts-payable",
           "accounting/accounts-receivable",
           "accounting/fixed-assets",
@@ -35,6 +36,7 @@
       {
         "group": "Administration",
         "pages": [
+          "administration/administration-module-overview",
           "administration/manage-companies",
           "administration/manage-entities",
           "administration/manage-navigation"
@@ -43,17 +45,22 @@
       {
         "group": "Customer Information",
         "pages": [
+          "customer-information/customer-information-module-overview",
           "customer-information/maintenance",
           "customer-information/manage-customers"
         ]
       },
       {
         "group": "eCommerce",
-        "pages": ["ecommerce/reports"]
+        "pages": [
+          "ecommerce/ecommerce-module-overview",
+          "ecommerce/reports"
+        ]
       },
       {
         "group": "Inventory",
         "pages": [
+          "inventory/inventory-module-overview",
           "inventory/labels",
           "inventory/material-handler",
           "inventory/reports"
@@ -62,6 +69,7 @@
       {
         "group": "Miscellaneous",
         "pages": [
+          "miscellaneous/miscellaneous-module-overview",
           "miscellaneous/dymo-tags",
           "miscellaneous/it-functions",
           "miscellaneous/manage-freight-carriers",
@@ -71,6 +79,7 @@
       {
         "group": "Order Processing",
         "pages": [
+          "order-processing/order-processing-module-overview",
           "order-processing/loss-of-sales",
           "order-processing/manage-orders",
           "order-processing/order-picking",
@@ -82,6 +91,7 @@
       {
         "group": "Part Information",
         "pages": [
+          "part-information/part-information-module-overview",
           "part-information/maintenance",
           "part-information/manage-formulas",
           "part-information/manage-holds",
@@ -94,6 +104,7 @@
       {
         "group": "Physical Inventory",
         "pages": [
+          "physical-inventory/physical-inventory-module-overview",
           "physical-inventory/inventory-tag-control",
           "physical-inventory/physical-inventory-reports",
           "physical-inventory/record-inventory"
@@ -102,6 +113,7 @@
       {
         "group": "Production Tracking",
         "pages": [
+          "production-tracking/production-tracking-module-overview",
           "production-tracking/batch-tickets",
           "production-tracking/bottling-jobs",
           "production-tracking/dashboard",
@@ -111,6 +123,7 @@
       {
         "group": "Purchase Orders",
         "pages": [
+          "purchase-orders/purchase-orders-module-overview",
           "purchase-orders/manage-purchase-orders",
           "purchase-orders/manage-vendors",
           "purchase-orders/receiving",
@@ -120,6 +133,7 @@
       {
         "group": "Scheduling",
         "pages": [
+          "scheduling/scheduling-module-overview",
           "scheduling/manage-schedules",
           "scheduling/scheduling-reports"
         ]
@@ -127,6 +141,7 @@
       {
         "group": "Shipping",
         "pages": [
+          "shipping/shipping-module-overview",
           "shipping/advanced-shipping-notices",
           "shipping/bill-of-lading",
           "shipping/kits",
@@ -139,6 +154,7 @@
       {
         "group": "Work Orders",
         "pages": [
+          "work-orders/work-orders-module-overview",
           "work-orders/manage-work-orders",
           "work-orders/work-order-production",
           "work-orders/work-order-reports"
