@@ -29,14 +29,81 @@ DASH is composed of several modules tailored towards specific tasks or teams, su
 
 When you sign into DASH, you’ll land on the **Dashboard.** The Dashboard shows a high-level overview of key information in your company drawn from across your modules.
 
-<aside>
-ℹ️
+<Alert type="info" title="Note">
+  What you see in DASH depends on your role:
 
-**Note**
+  - If you have an administrative or back-office role (e.g., accounting, sales, customer service), you’ll see the Dashboard and sidebar with access to your assigned modules.
+  - If you have a production floor role (e.g., order selector, material handler, work order operator), you’ll see a different interface on your handheld device without the Dashboard or sidebar.
+</Alert>
 
-What you see in DASH depends on your role: 
+![DASH Dashboard overview](/images/dash-overview-dashboard.webp)
 
-- If you have an administrative or back-office role (e.g., accounting, sales, customer service), you’ll see the Dashboard and sidebar with access to your assigned modules.
-- If you have a production floor role (e.g., order selector, material handler, work order operator), you’ll see a different interface on your handheld device without the Dashboard or sidebar.
-</aside>
+From here, you can explore different modules using the sidebar, such as Accounting, Administration, Inventory, Shipping, and more. 
+
+# Core Concepts
+
+## Parts
+
+In DASH, **Parts** are the foundational units that connect nearly every module together, from inventory and production to purchasing, sales, and finance. 
+
+A Part is any discrete item, product, or material that moves through the business. Parts can represent:
+
+- Products sold to customers
+- Components used in manufacturing
+- Raw materials
+- Packaging materials
+- Work-in-progress (WIP) assemblies
+
+Each Part is uniquely identified and holds critical data that helps the business operate effectively.
+
+Almost every module connects back to Parts in some way. A Part might start in the system as a newly created Part, appear in an order, flow into a work order for production, show up in inventory and shipping, and ultimately get recorded on an invoice and in financial reports. 
+
+## DASH’s Multi-Company Structure
+
+DASH lets you manage multiple companies within a single system, while keeping their operations and finances separate.
+
+Each company has its own configuration, processes, and visibility. This is useful for setups like:
+
+- A parent company with multiple subsidiaries
+- Companies with different accounting calendars or workflows
+
+User access is permission-based. Some users may be able to switch between companies; others may only see one.
+
+Companies can also be structured flexibly:
+
+- Some acquisitions are set up as new companies
+- Others are folded in as product lines under an existing company
+
+Most importantly, all financial data - like journal entries and reports - is kept separate for each company.
+
+## License Plates, Locations, and Inventory Management
+
+DASH tracks inventory using license plates and location tags, which together tell you where each part is and how much of it there is.
+
+- Location Tags describe the physical location of a part (e.g., warehouse, aisle, bin).
+- License Plates are unique IDs tied to pallets. When scanned, they show what part is on the pallet, how much is there, and where it's located.
+
+These IDs are used throughout DASH to manage inventory. For example, when a part is scanned for a work order, DASH automatically deducts that quantity from the correct location.
+
+You can also run cycle counts to manually record the inventory on each pallet you're reviewing.
+
+## Bills of Materials
+
+In DASH, a Bill of Materials (BOM) lists all the components and quantities needed to manufacture a Part. You can think of it like a recipe for how to make a Part. 
+
+Each BOM includes:
+
+- A list of subparts and how many of each are required
+- Whether each subpart is purchased or manufactured
+- Estimates for material costs, labor costs, and production time
+
+BOMs help DASH plan production, track efficiency, and manage costs. For example, if you're making 100 Parts, DASH calculates exactly how much of each component you need to produce them. 
+
+BOMs are central to both manufacturing workflows and financial reporting.
+
+# Next Steps
+
+- Learn how to navigate the DASH interface <LINK: Navigating the DASH Interface>
+- Check out the Glossary <LINK: DASH Glossary> to learn about key terms and acronyms
+- Explore each DASH module at: <LINK: Overview of DASH Modules>
 
