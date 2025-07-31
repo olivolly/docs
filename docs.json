@@ -7,6 +7,9 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
       {
         "tab": "DASH",
         "groups": [
@@ -20,9 +23,7 @@
           },
           {
             "group": "Dashboard",
-            "pages": [
-              "dashboard"
-            ]
+            "pages": ["dashboard"]
           },
           {
             "group": "Accounting",
@@ -51,9 +52,7 @@
           },
           {
             "group": "eCommerce",
-            "pages": [
-              "ecommerce/reports"
-            ]
+            "pages": ["ecommerce/reports"]
           },
           {
             "group": "Inventory",
