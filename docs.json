@@ -16,6 +16,12 @@
         "tab": "DASH",
         "groups": [
           {
+            "group": "Welcome",
+            "pages": [
+              { "path": "index", "title": "Landing Page" }
+            ]
+          },
+          {
             "group": "Getting Started",
             "pages": [
               { "path": "getting-started/what-is-dash", "title": "What is DASH?" },
