@@ -13,9 +13,9 @@
       {
         "group": "Getting Started",
         "pages": [
-          "getting-started/what-is-dash",
+          "getting-started/dash-overview",
           "getting-started/overview-of-dash-modules",
-          "getting-started/navigating-the-interface"
+          "getting-started/navigating-the-dash-interface"
         ]
       },
       {
